@@ -1,6 +1,6 @@
 import requests
 import json
-from src import _apiv1
+from selo_linku import _apiv1
 class UncachedError(BaseException):
     pass
 class LinkuError(BaseException):

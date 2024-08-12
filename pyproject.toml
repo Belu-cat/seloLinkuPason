@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling", "requests"]
+build-backend = "hatchling.build"
+
+[project]
+name = "selo_linku"
+version = "0.0.1"
+authors = [
+  { name="Thecoolcats", email="thecoolcats75@gmail.com" },
+]
+description = "Python library for interacting with sona Linku (the lipu Linku API)"
+readme = "README.md"
+requires-python = ">=3.12"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/Belu-cat/seloLinkuPason"
+Issues = "https://github.com/Belu-cat/seloLinkuPason/issues"
